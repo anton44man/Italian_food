@@ -1,0 +1,653 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    line-height: 0.69;
+}
+
+@font-face {
+    font-family: 'Montserrat Bold';
+    src: url(../fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat Regular';
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Gabelisa';
+    src: url(../fonts/Gabelisa\ Font\ by\ Keithzo\ \(7NTypes\).otf);
+}
+
+@font-face {
+    font-family: 'Frederica the Great';
+    src: url(../fonts/FrederickatheGreat-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat extra-bold';
+    src: url(../fonts/Montserrat-ExtraBold.ttf);
+}
+
+li {
+    list-style: none;
+}
+
+.mw1440 {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header-hero-bg {
+    height: 825px;
+    background: rgb(255, 223, 1);
+    background: linear-gradient(101deg, rgba(255, 223, 1, 1) 60.6%, rgba(228, 226, 167, 1) 60.6%);
+    position: relative;
+}
+
+.wrap {
+    width: 92.36%;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 0 55px;
+    padding-top: 40px;
+}
+
+
+.logo-panel {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+
+
+.express-delivery__phone {
+    display: inline-block;
+}
+
+.express-delivery__txt,
+.express-delivery__num {
+    font-family: 'Montserrat Bold';
+    line-height: 1.2;
+}
+
+.express-delivery__txt {
+    text-align: end;
+    font-size: 17px;
+}
+
+.express-delivery__num {
+    font-size: 29px;
+}
+
+.express-delivery__ico {
+    width: 29px;
+    height: 53px;
+    margin-left: 16px;
+}
+
+#burger,
+.burger-label,
+.burger-x {
+    display: none;
+}
+
+.burger-label,
+.burger-x {
+    font-size: 60px;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    z-index: 1000;
+}
+
+
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    letter-spacing: 0.2em;
+    gap: 0 60px;
+    margin-top: 30px;
+}
+
+.menu__inner {
+    font-family: 'Montserrat Bold';
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.menu_active {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 60px 0;
+    background-color: rgba(0, 0, 0, 0.63);
+    color: white;
+    height: 100vh;
+    width: 50vw;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    display: none;
+}
+
+.hero-block {
+    display: flex;
+    flex-direction: column;
+    max-width: 570px;
+    align-items: center;
+    position: relative;
+}
+
+.hero__title {
+    font-size: 58px;
+    font-family: 'Gabelisa';
+    margin-top: 80px;
+    margin-bottom: 25px;
+}
+
+.hero__subtitle {
+    display: flex;
+    margin-bottom: 35px;
+    gap: 0 50px;
+}
+
+.hero__subtitle-media {
+    font-family: 'Frederica the Great';
+    text-transform: uppercase;
+    font-size: 90px;
+}
+
+
+.hero__item {
+    font-size: 27px;
+    font-family: 'Montserrat Bold';
+    text-transform: uppercase;
+    padding-bottom: 40px;
+    border-bottom: 3px solid hsla(0, 0%, 0%, 0.2);
+    margin-bottom: 40px;
+}
+
+.hero-promotion {
+    font-size: 19px;
+    display: flex;
+    align-items: center;
+    gap: 0 15px;
+}
+
+.hero-promotion__title {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-promotion__row1,
+.hero-promotion__row2 {
+    font-family: 'Frederica the Great';
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+.hero-promotion__subtitle {
+    font-size: 57px;
+    font-family: 'Frederica the Great';
+}
+
+.order-btn {
+    font-size: 21px;
+    font-family: 'Montserrat extra-bold';
+    text-transform: uppercase;
+    margin-top: 40px;
+    padding: 20px 40px;
+    border: 1px solid black;
+}
+
+.order-btn:hover {
+    cursor: pointer;
+}
+
+
+.md {
+    position: absolute;
+    width: 39.375%;
+    top: 220px;
+    right: 10%;
+   
+}
+
+
+.md img {
+    max-width: 100%;
+}
+
+.leafTop-img {
+    position: absolute;
+    top: 155px;
+    left: 80px;
+    transform: rotate(65deg);
+    transform-origin: left;
+}
+
+.leafBottom-img {
+    width: 83px;
+    height: 109px;
+    position: absolute;
+    bottom: 66px;
+    left: 1274px;
+}
+
+.tomato-img {
+    width: 81px;
+    height: 81px;
+    position: absolute;
+    bottom: 48px;
+    left: 47.22%;
+}
+
+.pd {
+    position: absolute;
+    top: 179px;
+    left: 47.22%;
+    max-width: 6.59%;
+}
+
+.pasta-img {
+    max-width: 100%;
+    position: relative;
+}
+
+
+.spagetti-img {
+    background-image: url(../img/spagetti.png);
+    position: absolute;
+    left: -150px;
+    bottom: -120px;
+    width: 305px;
+    height: 298px;
+    filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.4));
+}
+
+.spagetti-hidden {
+    background-color: white;
+    position: absolute;
+    left: -150px;
+    bottom: -145px;
+    width: calc(305px - 155px);
+    height: 340px;
+}
+
+.choose__title {
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0;
+    text-align: center;
+    margin-top: 88px;
+    font-family: 'Frederica the Great';
+    font-size: 50px;
+    text-transform: uppercase;
+    line-height: 37.5px;
+}
+
+.choose__title div:nth-child(n) {
+    font-family: 'Frederica the Great';
+}
+
+.choose__subtitle {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 16.67px;
+    line-height: 29.17px;
+    padding-left: 193px;
+    padding-right: 192px;
+    font-family: 'Montserrat Regular';
+    letter-spacing: -0.3px;
+}
+
+.dish {
+    display: flex;
+    gap: 0 109px;
+    justify-content: center;
+    position: relative;
+    margin-top: 50px;
+}
+
+.dish__bg {
+    background-color: #e7e5a9;
+    height: 140px;
+    width: 100%;
+    position: absolute;
+    top: 115px;
+}
+
+.dish__img {
+    filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.4));
+    max-width: 350px;
+    height: 350px;
+}
+
+.dish__left {
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.dish__title {
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-family: 'Montserrat Bold';
+    font-size: 21px;
+}
+
+.dish__subtitle {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 17px;
+    line-height: 21px;
+    font-family: 'Montserrat Regular';
+}
+
+.dish__order {
+    margin-top: 35px;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-family: 'Montserrat Bold';
+    padding: 20px 40px;
+    background-color: #ffe100;
+    border: none;
+}
+
+.dish__order:hover {
+    cursor: pointer;
+}
+
+.events__subtitle {
+    font-size: 21px;
+    text-transform: uppercase;
+    font-family: 'Montserrat Bold';
+    text-align: center;
+    margin-top: 150px;
+}
+
+.events__title {
+    text-align: center;
+    font-family: 'Frederica the Great';
+    text-transform: uppercase;
+    font-size: 42px;
+    margin-top: 12px;
+}
+
+.events__text {
+    text-align: center;
+    font-family: 'Montserrat Regular';
+    font-size: 17px;
+    margin-top: 30px;
+    padding: 0 215px;
+    letter-spacing: -0.5px;
+    line-height: 25px;
+}
+
+.events-img {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.events-img__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.events-img__left {
+    background-image: url(../img/event-left.png);
+    width: 404px;
+    height: 351px;
+    background-position: -40px -4px;
+    position: relative;
+    flex-basis: 404px;
+    flex-shrink: 0;
+}
+
+.events-img__left::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.46);
+}
+
+.events-img__center {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: relative;
+    background-image: url(../img/event-center.png);
+    background-position: -142px -123px;
+    box-shadow: 19px 19px 54px 0px rgba(0, 0, 0, 0.67);
+    padding-bottom: 58.49%;
+}
+
+.super {
+    z-index: 20;
+    width: 48.33%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.events-img__right {
+    background-image: url(../img/event-right.png);
+    width: 404px;
+    height: 351px;
+    background-position: -52px -4px;
+    position: relative;
+    flex-shrink: 0;
+}
+
+.events-img__right::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.46);
+}
+
+.events-img__select {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    gap: 0 8px;
+}
+
+.events-img__point1 {
+    width: 16px;
+    height: 16px;
+    background-color: #ffe100;
+    border-radius: 50%;
+}
+
+.events-img__point2,
+.events-img__point3 {
+    width: 16px;
+    height: 16px;
+    background-color: #dddddd;
+    border-radius: 50%;
+}
+
+.events-img__point1:hover,
+.events-img__point2:hover,
+.events-img__point3:hover {
+    cursor: pointer;
+}
+
+.try-today {
+    margin-top: 115px;
+    margin-bottom: 115px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 108px;
+    padding-right: 98px;
+}
+
+.today-left {
+    background-image: url(../img/today-left.png);
+    width: 597px;
+    height: 420px;
+    background-position: -115px -2px;
+    padding-left: 45px;
+    padding-top: 45px;
+}
+
+.today-left__subtitle {
+    font-family: 'Montserrat Bold';
+    font-size: 25px;
+    text-transform: uppercase;
+    color: white;
+    line-height: 37.5px;
+}
+
+.today-left__title {
+    font-size: 42px;
+    font-family: 'Montserrat Bold';
+    color: white;
+    text-transform: uppercase;
+    line-height: 50px;
+}
+
+.today-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.today-rightTop {
+    background-image: url(../img/today-right-top.png);
+    width: 595px;
+    height: 192px;
+    background-position: -1px -88px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.today-rightBottom {
+    background-image: url(../img/today-right-bottom.png);
+    width: 595px;
+    height: 192px;
+    background-position: -3px -118px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.today-rightTop__title,
+.today-rightBottom__title {
+    font-family: 'Montserrat Bold';
+    font-size: 33px;
+    color: white;
+    text-transform: uppercase;
+    line-height: 37.5px;
+}
+
+.today-rightTop__subtitle,
+.today-rightBottom__subtitle {
+    font-family: 'Montserrat Bold';
+    font-size: 25px;
+    color: white;
+    line-height: 37.5px;
+    text-transform: uppercase;
+}
+
+
+.footer {
+    background-image: url(../img/footer-bg.png);
+    height: 584px;
+    background-position: -252px -543px;
+    padding: 65px 90px 90px 90px;
+    position: relative;
+}
+
+.footer::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.footer-logo {
+    display: block;
+    position: relative;
+    z-index: 10;
+}
+
+.footer-title {
+    color: white;
+    font-family: 'Montserrat Regular';
+    font-size: 16px;
+    line-height: 25px;
+    width: 512px;
+    margin-top: 70px;
+    display: inline-block;
+    z-index: 10;
+    position: relative;
+}
+
+.copyright {
+    font-family: 'Montserrat Regular';
+    color: white;
+    margin-top: 171px;
+    position: relative;
+    z-index: 10;
+    display: inline-block;
+}
+
+.address {
+    display: inline-block;
+    margin-left: 290px;
+    position: relative;
+    z-index: 10;
+}
+
+.location,
+.email {
+    color: white;
+    font-size: 17px;
+    font-family: 'Montserrat Regular';
+    display: flex;
+    align-items: center;
+    gap: 0 36px;
+}
+
+.email {
+    margin-top: 30px;
+}
+
+.social {
+    position: relative;
+    z-index: 15;
+    text-align: right;
+}
+
+.social img:not(:last-child) {
+    margin-right: 10px;
+}
+
+
+
